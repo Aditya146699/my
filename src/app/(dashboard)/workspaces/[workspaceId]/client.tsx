@@ -1,7 +1,7 @@
 'use client';
 
 import { formatDistanceToNow } from 'date-fns';
-import { CalendarIcon, PlusIcon, SettingsIcon } from 'lucide-react';
+import { CalendarIcon } from 'lucide-react';
 import Link from 'next/link';
 
 import { Analytics } from '@/components/analytics';
@@ -64,8 +64,8 @@ export const TaskList = ({ data, total }: TaskListProps) => {
         <div className="flex items-center justify-between">
           <p className="text-lg font-semibold">Tasks ({total})</p>
 
-          <Button title="Create Task" variant="muted" size="icon" onClick={() => createTask()}>
-            <PlusIcon className="size-4 text-neutral-400" />
+          <Button title="Create Task" className='size-8 text-2xl bg-none hover:opacity-50' onClick={() => createTask()}>
+            +
           </Button>
         </div>
 
@@ -98,7 +98,7 @@ export const TaskList = ({ data, total }: TaskListProps) => {
           <li className="hidden text-center text-sm text-muted-foreground first-of-type:block">No tasks found.</li>
         </ul>
 
-        <Button variant="muted" className="mt-4 w-full" asChild>
+        <Button className="mt-4 w-full bg-none" asChild>
           <Link href={`/workspaces/${workspaceId}/tasks`}>Show All</Link>
         </Button>
       </div>
@@ -121,8 +121,8 @@ export const ProjectList = ({ data, total }: ProjectListProps) => {
         <div className="flex items-center justify-between">
           <p className="text-lg font-semibold">Projects ({total})</p>
 
-          <Button title="Create Project" variant="secondary" size="icon" onClick={createProject}>
-            <PlusIcon className="size-4 text-neutral-400" />
+          <Button title="Create Project" className='size-8 text-2xl bg-none hover:opacity-50' onClick={createProject}>
+               +
           </Button>
         </div>
 
@@ -163,9 +163,9 @@ export const MemberList = ({ data, total }: MemberListProps) => {
         <div className="flex items-center justify-between">
           <p className="text-lg font-semibold">Members ({total})</p>
 
-          <Button title="Create Project" variant="secondary" size="icon" asChild>
+          <Button title="Create Project" className='size-8 text-2xl bg-none hover:opacity-50 ' asChild>
             <Link href={`/workspaces/${workspaceId}/members`}>
-              <SettingsIcon className="size-4 text-neutral-400" />
+...
             </Link>
           </Button>
         </div>
