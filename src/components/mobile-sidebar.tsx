@@ -1,7 +1,6 @@
 'use client';
 
 import * as VisuallyHidden from '@radix-ui/react-visually-hidden';
-import { MenuIcon } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
@@ -21,8 +20,8 @@ export const MobileSidebar = () => {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen} modal={false}>
       <SheetTrigger asChild>
-        <Button title="Open Menu" size="icon" variant="secondary" className="size-10 lg:hidden">
-          <MenuIcon className="size-6 text-neutral-500" />
+         <Button title="Open Menu" size="icon" className="bg-none size-10 text-3xl border rounded-xl">
+        ≡
         </Button>
       </SheetTrigger>
 
