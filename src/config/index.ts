@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const siteConfig: Metadata = {
-  title: 'Jira Clone',
+  title: 'our PMT',
   description: 'Full-stack Jira Clone using Next.js 14 and Appwrite.',
   keywords: [
     'reactjs',
