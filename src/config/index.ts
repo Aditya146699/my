@@ -42,7 +42,7 @@ export const siteConfig: Metadata = {
     'workspaces-management',
     'ui/ux',
     'appwrite-db',
-    'jira-clone',
+    'our PMT',
 
     'date-fns',
     'cn',
