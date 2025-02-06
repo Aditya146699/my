@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const siteConfig: Metadata = {
   title: 'our PMT',
-  description: 'Full-stack Jira Clone using Next.js 14 and Appwrite.',
+  description: 'Full-stack PMT using Next.js 14 and Appwrite.',
   keywords: [
     'reactjs',
     'nextjs',
