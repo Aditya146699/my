@@ -51,7 +51,7 @@ export const siteConfig: Metadata = {
   ] as Array<string>,
   authors: {
     name: 'Aditya Rathod',
-    url: 'https://github.com/sanidhyy',
+ url:'https://github.com/Aditya146699/my',
   },
 } as const;
 
