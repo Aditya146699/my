@@ -56,5 +56,5 @@ export const siteConfig: Metadata = {
 } as const;
 
 export const links = {
-  sourceCode: 'https://github.com',
+  sourceCode: 'https://github.com/Aditya146699/my',
 } as const;
