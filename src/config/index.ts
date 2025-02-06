@@ -56,5 +56,5 @@ export const siteConfig: Metadata = {
 } as const;
 
 export const links = {
-  sourceCode: 'https://github.com/sanidhyy/jira-clone',
+  sourceCode: 'https://github.com',
 } as const;
