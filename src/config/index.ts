@@ -50,7 +50,7 @@ export const siteConfig: Metadata = {
     'lucide-react',
   ] as Array<string>,
   authors: {
-    name: 'Sanidhya Kumar Verma',
+    name: 'Aditya Rathod',
     url: 'https://github.com/sanidhyy',
   },
 } as const;
